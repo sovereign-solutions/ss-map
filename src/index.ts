@@ -18,7 +18,7 @@ export { default as CardView } from './components/CardView/CardView';
 export type { ThemeColors, ThemeMode, Theme } from './components/theme/theme';
 export { colors, defaultTheme, themeModes } from './components/theme/theme';
 export { default as GlobalStyles } from './components/theme/gloalStyles';
-
+export { CommonHelper } from './helper/common.helper.js';
 export type Language = 'en' | 'vi' | 'en-in';
 
 export { SearchService } from './services/SearchService'
